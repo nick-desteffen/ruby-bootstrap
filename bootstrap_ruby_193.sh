@@ -8,3 +8,6 @@ cd ruby-1.9.3-p194/
 ./configure --prefix=/usr/local
 make
 make install
+gem update --system
+gem install bundler
+ruby -v
